@@ -68,6 +68,6 @@ function PrecioFinal ()
 
     total = precio1 + precio2 + precio3 + iva;
 
-    alert("El precio final mas IVA de los productos es de $" + total);
+    alert("El precio final de los productos mas el IVA es de $" + total);
 	
 }
