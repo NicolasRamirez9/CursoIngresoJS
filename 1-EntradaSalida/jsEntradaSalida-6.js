@@ -8,9 +8,7 @@ function sumar()
     var resultado;
     num1 = document.getElementById("numeroUno").value;
     num2 = document.getElementById("numeroDos").value;
-    parseInt(num1);
-    parseInt(num2);
-    resultado = num1 + num2;
-    alert(resultado);
+    resultado = parseInt(num1) + parseInt(num2);
+    alert("La suma es " + resultado);
 }
 
