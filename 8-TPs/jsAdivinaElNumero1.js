@@ -30,7 +30,9 @@ function verificar()
     alert("Gane");
   } else if (numero > numeroSecreto){
 
-    alert("Falta")
+    alert("Falta " + (numeroSecreto - numero));
+
+    else if 
 
   }
 
