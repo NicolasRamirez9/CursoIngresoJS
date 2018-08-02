@@ -15,7 +15,7 @@ function mostrar()
 		if (numero >= 0){
 			positivo = positivo + numero
 		} else {
-			negativo = negativo * negativo
+			negativo = negativo * numero
 		}
 
 		respuesta = prompt("Desea seguir?");
