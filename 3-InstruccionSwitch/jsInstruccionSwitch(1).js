@@ -22,7 +22,12 @@ switch (mesDelAño){
     }
     case "Diciembre":
     {
-        alert("Felices fiestas!!!")
+        alert("Felices fiestas!!!");
+        break;
+    }
+    default:
+    {
+        alert("Elegir mes valido.");
     }
     }
 }
